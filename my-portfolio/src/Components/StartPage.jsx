@@ -1,10 +1,20 @@
 import React from 'react'
+import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 import { SocialIcon } from 'react-social-icons'
 import 'react-social-icons/github'
 import 'react-social-icons/linkedin'
 
+import Skills from './Skills'
+
 function Home() {
+    const scrollToAbout = () => {
+        scroll.scrollTo('about', {
+          duration: 800,
+          smooth: 'easeInOutQuad',
+        });
+      };
   return (
+    <div>
     <div className='home'>
     
 <div  className='section'>
@@ -12,29 +22,32 @@ function Home() {
 
 <header >
         <ul className='links'>
-            <li>
-                Home
-            </li>
+        
+          
+            
             <li>Resume</li>
+            <li> <ScrollLink to="exp" smooth={true} duration={800} onClick={scrollToAbout}>
+                  Skill
+                  </ScrollLink></li>
             <li>Project</li>
-            <li>Contact</li>
+           
+                  <li>
+             Contact
+            </li>
         </ul>
     </header>
 </div>
  <div className='second-section'>
     <section>
     <div>
-       <img src="/port4.png" alt="sara" />
+       <img src="image/port.png" alt="sara" />
        </div>
       
 <div className='info'>
 <h2>   Hello, 
         </h2>
         <p>
-          <span> My name is Sara Leepark,</span>  I'm front-end developer and ux designer <br/> based in Stockholm, Sweden.
-            I love to create an eye-catching, accessible <br/> and user-friendly websites and applications.
-        I have passion for creating <br/> engaging designs and bringing the products to life. 
-        
+       <span>  I'm Sara Leepark,</span> a passionate front-end developer and UX designer <br/> located in Stockholm, Sweden. I specialize in crafting visually appealing, <br/> accessible, and user-friendly websites and applications. My dedication lies <br/> in creating engaging designs that breathe life into products. Let's embark <br/> on a journey of innovation together
         </p> 
 
         <div className='contact-links'>
@@ -55,8 +68,14 @@ function Home() {
    
   
      </div>
-     
+     <div className='exp'>
 
+     <Skills/> 
+     </div>
+    
+   
+   
+</div>
     
   )
 }
