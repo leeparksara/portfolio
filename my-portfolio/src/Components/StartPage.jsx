@@ -5,7 +5,7 @@ import 'react-social-icons/github'
 import 'react-social-icons/linkedin'
 
 import Skills from './Skills'
-
+import Project from './Project';
 function Home() {
     const scrollToAbout = () => {
         scroll.scrollTo('about', {
@@ -26,10 +26,13 @@ function Home() {
           
             
             <li>Resume</li>
-            <li> <ScrollLink to="exp" smooth={true} duration={800} onClick={scrollToAbout}>
-                  Skill
+            <li> <ScrollLink to="skill" smooth={true} duration={800} onClick={scrollToAbout}>
+                  Skills
                   </ScrollLink></li>
-            <li>Project</li>
+                  <li> <ScrollLink to="project" smooth={true} duration={800} onClick={scrollToAbout}>
+                  Project
+                  </ScrollLink></li> 
+          
            
                   <li>
              Contact
@@ -44,10 +47,13 @@ function Home() {
        </div>
       
 <div className='info'>
-<h2>   Hello, 
-        </h2>
+<div className='intro'>
+<span className='first-span'> Hello,  
+        </span> <span className='second-span'> I'm Sara Leepark </span>
+</div>
+
         <p>
-       <span>  I'm Sara Leepark,</span> a passionate front-end developer and UX designer <br/> located in Stockholm, Sweden. I specialize in crafting visually appealing, <br/> accessible, and user-friendly websites and applications. My dedication lies <br/> in creating engaging designs that breathe life into products. Let's embark <br/> on a journey of innovation together
+     a passionate front-end developer & UX designer  located in Seoul,  <br/> South korea right now but I'm actively exploring new  opportunities  <br/>in my field and considering relocation for the right work opportunity.<br/>  I specialize in crafting visually appealing, accessible, and  user-friendly <br/>websites and applications. My dedication lies  in creating engaging <br/>designs that breathe life into products. Let's start the journey together.
         </p> 
 
         <div className='contact-links'>
@@ -68,13 +74,15 @@ function Home() {
    
   
      </div>
-     <div className='exp'>
+     <div className='exp' id='skill'>
 
      <Skills/> 
      </div>
     
    
-   
+   <div className='exp' id='project'>
+    <Project/>
+   </div>
 </div>
     
   )

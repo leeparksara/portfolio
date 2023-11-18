@@ -8,7 +8,7 @@ function About() {
 <div className='skill-dev'>
 <div className='divs'>
 <div className='dev-ti'>
-<img src='image/dev.png' alt='figma'/>
+<img src='image/dev.png' id='dev-icon' alt='figma'/>
   <h3>
   Frontend Dev
   </h3>
@@ -33,7 +33,7 @@ I find pleasure and satisfaction in coding <br></br>especially building projects
 
 <div className='divs'>
 <div className='dev-ti'>
-<img src='image/design.png' className='tools' alt='figma'/>
+<img src='image/design.png' className='tools' id='design-icon' alt='figma'/>
   <h3>
    Designer
   </h3>

@@ -47,7 +47,9 @@ body{
 
 
 
- background: #a8999b  ;
+
+  
+  background-color:    #e8cf7d;
 
   
 color:   rgb(33, 32, 26);
@@ -66,7 +68,9 @@ margin: 15px;
 
   column-gap: 30px;
   list-style: none;
-  color: rgb(75, 94, 114);
+  color: rgba(39, 35, 30, 0.961) ;
+  color:  rgb(80, 139, 179);
+  cursor: pointer;
 }
 .section{
 display: flex;
@@ -74,8 +78,9 @@ flex-direction: column;
 
 height: 100vh;
 
+background:#fdf3f3;
+background-image: linear-gradient(#fdf3f3, #cdc0d4);
 
-background:  #c9bebf  ;
 
   width: 140vh;
  
@@ -112,20 +117,34 @@ width: 100%;
 height: 520px;
 border-radius: 10px;
 }
-.second-section h2{
- margin: 0;
-  font-size: xx-large;
-  color: rgb(75, 94, 114);
-}
+
 .second-section p{
   font-family: 'Inika', serif;
   font-size: large;
   
 }
+.intro{
+  display: flex;
+  column-gap: 5px;
+
+}
+
+ .intro .first-span:hover{
+  background-color: #e8cf7d;
+ padding: 10px;
+  border-radius: 50%;
+ }
+ .intro .second-span:hover{
+  background-color: #d0bbde;
+  padding: 10px;
+  border-radius: 50%;
+ }
 .second-section span{
-  color: rgb(75, 94, 114);
+
   font-size: larger;
   font-weight: bolder;
+  color:  rgb(80, 139, 179); 
+  
 }
 
 
@@ -153,24 +172,20 @@ row-gap: 30px;
 
 .exp{
   display: flex;
+  flex-direction: row;
   justify-content: center;
-}
-.line hr{
-display: flex;
-justify-content: center;
-align-items: center;
- height: 0.6px;
-  width: 700px;
- 
-  background-color: rgb(109, 131, 156);
-
-
+  align-items: center;
+margin-top: 50px;
+  
 }
 
 
   .skill-container{
     width: 140vh;
-   background: #c9bebf ;
+    
+
+background-image: linear-gradient(#f9f4fd, #af9cbb);
+   
   }
   .skill-dev{
   display: grid;
@@ -191,11 +206,12 @@ align-items: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color:#3f6a92 ;
+    color:  rgb(80, 139, 179); 
+    
     
   }
 .h3{
-  color:#3f6a92 ;
+  color:  rgb(80, 139, 179); 
 }
   ul li {
     list-style: none;
@@ -213,17 +229,17 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #c9bebf ;
-    border:1.5px solid #3f6a92;
-    width: 85px;
+    background-color: #e8ddef;
+
+    border:1.5px solid   #8a749b;;
+    width: 145px;
     height: 50px;
-    border-radius: 50%;
+    border-radius: 37%;
    
 
   }
   .dev-tools-container p:hover{
-    background-color: #3f6a92;
-    color: #fff;
+    background-color: #e8cf7d;
   }
 
   .tools{
@@ -247,6 +263,13 @@ align-items: center;
     overflow: hidden;
   }
   
+
+#design-icon{
+margin-top: -40px;
+height: 53px;
+}
+
+
   @keyframes moveRightLeft {
     0% {
       transform: translateX(100%); 
@@ -258,3 +281,142 @@ align-items: center;
       transform: translateX(100%); 
     }
   }
+
+  /* Project section styling*/
+.pro{
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+ background:  #c2b0c9;
+
+  width: 140vh;
+
+  text-align: left;
+}
+.pro h4{
+  font-family: 'Krona One', sans-serif;
+  color:  rgb(80, 139, 179);
+}
+.gomoku-pro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+  height: 120vh;
+}
+  .gomoku-pro img{
+    width: 90vh;
+    border-radius: 10px;
+  
+  }
+  .pro-tools{
+    display: flex;
+    column-gap: 20px;
+    text-align: center;
+  
+
+  }
+  .pro-tools p{
+ color:  rgb(80, 139, 179);
+    height: 30px;
+    width: 80px;
+    border: 4px dotted rgb(80, 139, 179);
+   
+     font-weight: 600;
+  }
+  .projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 60px;
+  }
+
+  /* Add this to your existing CSS file or create a new one */
+.pro {
+  /* Existing styles for the project section */
+
+  /* Add the following styles for the hover effect */
+  transition: transform 0.3s ease;
+}
+
+.pro:hover {
+  transform: scale(1.05);
+ box-shadow:3px 3px rgba(151, 137, 112, 0.677) ;
+}
+
+.gomoku-pro:hover{
+  transform: scale(1.2);
+}
+
+.el-pro:hover{
+  transform: scale(1.2);
+height: 230vh;
+}
+.trio-pro:hover{
+  transform: scale(1.2);
+  height: 130vh;
+}
+.spa-pro:hover{
+  transform: scale(1.2);
+  height: 120vh;
+}
+
+
+/* Add this if you want to remove the hover effect on mobile devices */
+@media (hover: none) {
+  .pro:hover {
+    transform: none;
+
+  }
+  .gomoku-pro:hover{
+    transform: none;
+  }
+  .el-pro:hover {
+    transform: none;
+  }
+  .trio-pro:hover{
+transform: none;
+  }
+  .spa-pro:hover{
+    transform: none;
+  }
+}
+
+.el-pro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+  height: 200vh;
+}
+.el-pro img{
+  width: 90vh;
+  border-radius: 10px;
+}
+.trio-pro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+  height: 110vh;
+ 
+}
+.trio-pro img{
+  width: 90vh;
+  border-radius: 10px;
+}
+.spa-pro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+  height: 110vh;
+ 
+}
+.spa-pro img{
+  width: 90vh;
+  border-radius: 10px;
+}
+
