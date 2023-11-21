@@ -1,6 +1,8 @@
 import React from 'react'
 import 'react-social-icons/linkedin'
 import { SocialIcon } from 'react-social-icons'
+import { FaArrowAltCircleDown } from "react-icons/fa";
+
 const Resume = () => {
   return (
     
@@ -75,7 +77,13 @@ const Resume = () => {
         <h1>
     Sara Leepark
 </h1>
-{/*  <div className='download'>       <img src='image/download.png' alt='icon'></img> <p>Download</p></div>*/}
+<div className='download'>
+<a href="https://drive.google.com/drive/my-drive">   <FaArrowAltCircleDown  className='download-icon' /> </a>
+<p>Download</p>
+</div>
+
+
+
  
 
 

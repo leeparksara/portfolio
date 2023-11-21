@@ -1,23 +1,34 @@
 //import logo from './logo.svg';
+import React, {useState} from 'react';
 import Home from './Pages/Home.jsx'
 import './App.css';
 import { BiLogoGmail } from "react-icons/bi";
-import { MdModeNight } from "react-icons/md";
+import Header from './Components/Header.jsx';
+import { MdModeNight, MdWbSunny } from "react-icons/md"; 
 function App() {
-  
+  const [nightMode, setNightMode] = useState(false);
+
+  const toggleNightMode = () => {
+    setNightMode(!nightMode)
+  }
+
+
   return (
-    <div className="App">
+    <div className={`App ${nightMode ? 'night-mode' : ''}`}>
 
-    <div className='logo'>
-
-   <img id='im' src='image/log.png' alt='my-logo'/>
+<Header/>
 
   <div className='navbar'>
     
 
     <BiLogoGmail className='mail'/>   <a  className='mail-link' href='mailto:saraleepark1994@gmail.com' target='-blank' rel="noopener noreferrer">    </a>
-    <MdModeNight className='navbar-icons' />
-    </div>
+
+    {nightMode? (
+      <MdWbSunny className='navbar-icons' onClick={toggleNightMode}/>
+    ) : (<MdModeNight className='navbar-icons' onClick={toggleNightMode}/>
+    )}
+    
+ 
     </div>
   
   <div className='tools-container '> <img className='tools' src='image/figma.png' alt='figma' />

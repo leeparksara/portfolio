@@ -101,7 +101,7 @@ background:#f5f1da;
   display: flex;
   justify-content: left;
   margin-top: 20px;
-  background-color: #e6c8643c;
+  background-color: #f3d16456;
   width: 500PX;
   border-radius: 30%;
 
@@ -110,13 +110,21 @@ background:#f5f1da;
 }
 
 .logo{
-  display: flex;
-justify-content: space-between;
-align-items: center;
-cursor: pointer;
+
+display: flex;
+justify-content: flex-start;
+position: fixed;
+}
+#im{
+  position: fixed;
 }
 
-
+.navbar{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+ 
+}
 .mail-link{
   color: #878787;
 }
@@ -226,30 +234,47 @@ height: 98vh;
    
   }
   .skill-dev{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-   place-items: center;
+display: flex;
+justify-content: space-around;
+align-items: centers;
+text-align: start;
+
+
    
   }
-  .divs{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-  }
+
+ .divs{
+ display: grid;
+ place-content: center;
+ place-items: center;
  
+ }
   .dev-ti{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color:  #af7079fe 
+    color: #628095;
     
     
   }
+  .skill-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+  }
+  .skill-icons h3{
+    color: #587797
+  }
+  .devs{
+    width: 40px;
+    height: 70px;
+    color: #628095;
+  }
 .h3{
-  color:  #af7079fe 
+  color: #587797
 }
   ul li {
     list-style: none;
@@ -267,7 +292,7 @@ height: 98vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(241, 224, 227, 0.684);
+    background-color:  #b0c0cd;
 
     border:1.5px solid    #94784c;
     width: 145px;
@@ -290,6 +315,7 @@ height: 98vh;
  
   .tools-container {
     display: flex;
+    margin-top: 15px;
 column-gap: 60px;
     animation: moveRightLeft 60s linear infinite; 
   }
@@ -459,7 +485,7 @@ transform: none;
 
 
 .resume-container{
-  background-color: rgba(196, 219, 226, 0.753);
+  background-color: #c4dbe2c0;
   width: 140vh;
   display: flex;
   flex-wrap:wrap;
@@ -623,7 +649,12 @@ margin-top: -30px;
   column-gap: 10px;
   cursor: pointer;
 }
-
+.download-icon{
+  height: 90px;
+  width: 35px;
+  color: #7db0dd;
+  
+  }
 /* form */
 .form-wrap{
   text-align: center;
@@ -741,4 +772,158 @@ button:hover {
 justify-content: space-evenly;
 column-gap: 20px;
 align-items: center;
+}
+/* App.css */
+
+/* Your existing styles */
+
+.night-mode {
+
+  background-color: #333a40;
+  color: #fff; 
+  .section{
+    background-color: rgba(43, 46, 48, 0.868);
+    color: #fff;
+  }
+  .header{
+    background: #a7bbc9;
+    
+  }
+  .links a{
+    color: #000;
+  }
+  .links a:hover{
+    color: #3c3b3b;
+  }
+ .first-span{
+  color: #c1d3e1;
+ }
+ .second-span{
+  color: #c1d3e1;
+ }
+ .first-span:hover{
+  background-color:#84919b;
+  color: #282c34;
+ }
+  .second-span:hover{
+    background-color:#897997;
+    color: #282c34;
+ }
+ .skill-container{
+
+  background-color: #1a292f;
+ }
+ .skill-icons h3{
+  color: #92b0cb;
+ }
+ .devs{
+  color: #92b2ca;
+ }
+.dev-ti{
+  color: #92b0cb;
+}
+.h3{
+  color: #92b0cb;
+}
+.dev-tools-container p{
+  background-color:  #8aa5bc;
+  color:#1a292f;
+  border: 1px solid #333a40;
+
+}
+.dev-tools-container p:hover{
+  background-color:  #5e6c79;
+  color: #fff;
+}
+.pro{
+  background-color: #1a292f;
+
+}
+.pro:hover{
+  box-shadow:  2px 2px #cbd9e6;
+}
+.pro h4{
+  color: #92b2ca;
+}
+.pro-tools p{
+  color: #cbd9e6;
+  border: 4px dotted #cbd9e6;
+}
+.resume-container{
+  background-color: #1a292f;
+}
+.resume-container h3{
+  color: #92b2ca;
+}
+.resume-wrap p{
+  color: #c6d2dc;
+}
+.resume-wrap h5{
+  color: #a9b7c1;
+}
+.core-list{
+  background-color:#596264;
+}
+.experinces h3{
+  background-color: #92b2ca;
+color: #383e3f;
+}
+.exp1, .exp2{
+  background-color:#53595b;
+}
+.exp-period h4{
+  color: #92b2ca;
+}
+.resume-wrap h1{
+  color: #92b2ca;
+}
+.resume-container span{
+  background: #92b2ca;
+}
+.download-icon{
+height: 90px;
+width: 35px;
+color: #7db0dd;
+
+}
+.contact-container{
+  border-color: #ffffff;
+
+}
+.form-info{
+  color:#ced5da;
+}
+.form-info input, textarea{
+  border-color: #dfe9f1;
+}
+
+ .btn{
+  background-color:#21548f;
+  color: #d4eafa;
+  border-color:#d4eafa ;
+}
+.btn:hover{
+  color: #282c34;
+  border-color:#282c34 ;
+}
+.form-title{
+  background-color: #325073;
+  color: #d4eafa;
+}
+.footer{
+  background-color: #325073;
+  color: #d4eafa;
+}
+} 
+
+
+.skill-container-icons{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 30px;
+}
+.navbar-icons{
+  margin: 30px;
+  cursor: pointer;
 }

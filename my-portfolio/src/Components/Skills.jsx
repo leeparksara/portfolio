@@ -1,19 +1,32 @@
 import React from 'react'
-
+import { FaCode } from "react-icons/fa";
+import { MdOutlineDesignServices } from "react-icons/md";
 function About() {
   return (
   
 <div className='skill-container'>
 
-<div className='skill-dev'>
-<div className='divs'>
-<div className='dev-ti'>
-<img src='image/dev.png' id='dev-icon' alt='figma'/>
+<div className='skill-container-icons'>  
+<div className='skill-icons'>
+<FaCode className='devs' />
   <h3>
   Frontend Dev
   </h3>
+  
+</div>
+<div className='skill-icons'>
+<MdOutlineDesignServices className='devs' />
+  <h3>
+   Designer
+  </h3>
 
 </div>
+</div>
+<div className='skill-dev'>
+
+
+
+<div className='divs'>
 
 
   <p>
@@ -32,13 +45,7 @@ I find pleasure and satisfaction in coding <br></br>especially building projects
  </div>
 
 <div className='divs'>
-<div className='dev-ti'>
-<img src='image/design.png' className='tools' id='design-icon' alt='figma'/>
-  <h3>
-   Designer
-  </h3>
 
-</div>
 
   <p>
 I prioritize and appreciate uncomplicated and <br></br>  minimalistic design, and well-considered user interactions. <br/> I enjoy designing ux/ui,web,apps,and logos. </p>

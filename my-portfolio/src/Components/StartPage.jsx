@@ -9,6 +9,7 @@ import Project from './Project';
 import Resume from './Resume'
 import Contact from './Contact';
 import Footer from './Footer';
+
 function Home() {
     const scrollToAbout = () => {
         scroll.scrollTo('about', {
@@ -18,7 +19,7 @@ function Home() {
       };
   return (
     <div>
-    
+  
     <div className='home'>
     
 <div  className='section'>
