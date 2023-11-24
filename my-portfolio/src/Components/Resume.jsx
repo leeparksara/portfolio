@@ -26,6 +26,7 @@ const Resume = () => {
                 <li>Figma</li>
                 <li>Bootstrap</li>
                 <li>Php</li>
+                <li>Wordpress</li>
             </ul>
    
      </div>
@@ -48,7 +49,7 @@ const Resume = () => {
                 <li>Swedish</li>
                 <li>English</li>
                 <li>Arabic</li>
-                <li>intermidate korea</li>
+                <li>intermidate korean</li>
                 
                 
             </ul>
@@ -60,7 +61,7 @@ const Resume = () => {
     
   </div>
   <div  className='contact-info'>
-    <div className='personal-info'><h4>Email:</h4> <p>saraleepark1994@gmail.com</p></div>
+    <div className='personal-info'><h4>Email:</h4> <p>saraleepark403@gmail.com</p></div>
     <div className='personal-info'><h4>Address:</h4> <p>Sweden, Stockholm</p></div>
       <SocialIcon  href='https://www.linkedin.com/in/sara-leepark-5ba013263/' url="www.linkedin.com" /> 
 
@@ -78,7 +79,7 @@ const Resume = () => {
     Sara Leepark
 </h1>
 <div className='download'>
-<a href="https://drive.google.com/drive/my-drive">   <FaArrowAltCircleDown  className='download-icon' /> </a>
+<a href="https://drive.google.com/file/d/1sg5JJzoDnxrrX1o-dwy-sv95k0xGqhch/view?usp=sharing" target="_blank" rel="noopener noreferrer">   <FaArrowAltCircleDown  className='download-icon' /> </a>
 <p>Download</p>
 </div>
 
@@ -99,7 +100,7 @@ const Resume = () => {
         Experiences
 
     </h3>
-    <p>In addition to my school projects, I have gained practical experience through <br/>an internship  at Smode, a company specializing in website and app development <br/> services.During this  internship, I actively contributed to various projects, honing <br/>  my skills in coding and project  management. </p>
+    <p>In addition to my school projects, I have gained practical experience through <br/>an internship  at Smode, a company specializing in website and app development <br/> services.During this  internship, I actively contributed to some projects, honing <br/>  my skills in coding and project  management. </p>
     <div className='con'>
     <div className='exp1'>
     <div className='exp-period'> <h4> Smode - Intern Frontend developer</h4> August 2023- October </div>

@@ -38,7 +38,7 @@ const Project = () => {
           <h4> Urban 2023</h4>
           <p>
           
-I had to create a flexible online store that works well on different devices, dealing <br/>  with both the behind-the-scenes and user interface. Alongside my two classmates, <br/>  we developed an electronic store selling smartphones, headphones, and laptops. <br/> I took on the role of designing the website for both desktop  and mobile versions,<br/> managing the database using PostgreSQL, and working on both the frontend <br/>  and backend aspects.
+I had to create a flexible online store that works well on different devices, dealing <br/>  with both the store data and user interface. Alongside my two classmates, <br/>  we developed an electronic store selling smartphones, headphones, and laptops. <br/> I took on the role of designing the website for both desktop  and mobile versions,<br/> managing the database using PostgreSQL, and working on both the frontend <br/>  and backend aspects.
           </p>
 
         </div>
@@ -86,10 +86,10 @@ I had to create a flexible online store that works well on different devices, de
         <div>
           <h4> Horizon 2023</h4>
           <p>
-          Horizon is a website for a resort that you can visit online. They have different spa experiences, both <br/> outside and inside. They also offer special packages for special events like romantic honeymoons and <br/> exciting kayak adventures. Someone made this website on their own using React.js. It's like a personal <br/> project to share the cool things about this resort and make it easy for people to plan their visits.
+          Horizon is a website for a resort that you can visit online. They have different spa experiences, both <br/> outdoor and indoor spa. They also offer special packages for special events like romantic honeymoons and <br/> exciting kayak adventures. I built this website independently using  React.js.<br/> 
 
 
-
+  
 
 
 

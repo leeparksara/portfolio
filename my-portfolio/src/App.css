@@ -359,7 +359,7 @@ column-gap: 60px;
  justify-content: center;
  align-items: center;
  transition: transform 0.3s ease;
- background-color:rgba(219, 196, 199, 0.684);
+ background-color:  #e6c8643c ;
   width: 140vh;
 
   text-align: left;
@@ -927,3 +927,22 @@ margin-top: 30px;
   margin: 30px;
   cursor: pointer;
 }
+/*  Responsive */
+ @media (min-width:375px) and (max-width:1000px){
+  body{
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width:100%;
+    
+  }
+ 
+
+    
+}
+
+
+
+
+

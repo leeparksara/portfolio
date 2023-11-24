@@ -55,7 +55,7 @@ function Home() {
  <div className='second-section'>
     <section>
     <div>
-       <img src="image/port.png" alt="sara" />
+       <img src="image/portPic.png" alt="sara" />
        </div>
       
 <div className='info'>
