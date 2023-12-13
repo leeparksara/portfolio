@@ -972,6 +972,7 @@ align-items: center;
     width: 350px;
     font-family: 'Krona One', sans-serif;
 padding-bottom: 60px;
+height: 130vh;
   }
   
   .header{
@@ -1060,7 +1061,7 @@ height: 100%;
       }
 
 .gomoku-pro{
-  height: 50vh;
+  height: 65vh;
 }
       
         .gomoku-pro img{
@@ -1076,14 +1077,14 @@ height: 100%;
         }
         .el-pro{
           
-          height: 95vh;
+          height: 120vh;
         }
         .el-pro img{
           width: 330px;
           border-radius: 10px;
         }
         .trio-pro{
-          height: 55vh;
+          height: 65vh;
         }
         .trio-pro img{
           width: 330px;
@@ -1091,7 +1092,7 @@ height: 100%;
         }
         .spa-pro{
          
-          height: 55vh;
+          height: 65vh;
          
         }
         .spa-pro img{
@@ -1104,7 +1105,7 @@ height: 100%;
           width: 350px;
           display: flex;
           
-          height: 310vh;
+          height: 420vh;
         }
         .resume-wrap{
          display: flex;
@@ -1179,7 +1180,7 @@ height: 100%;
           cursor: pointer;
         }
       
-        
+       
         .form-wrap{
 
           text-align: center;
@@ -1187,6 +1188,8 @@ height: 100%;
        display: flex;
        flex-direction: column;
         width: 350px;
+      
+       
         }
         
         .form-title{
@@ -1203,9 +1206,7 @@ height: 100%;
           max-width: 350px;
         
          
-        height: 40vh;
-     
-        
+        height: 45vh;
         }
        
         
@@ -1246,7 +1247,7 @@ width: 100%;
          
           
         }
-        
+       
          
 }
 
