@@ -18,8 +18,7 @@ function Home() {
         });
       };
   return (
-    <div>
-  
+    <div class="home-page">
     <div className='home'>
     
 <div  className='section'>
@@ -71,9 +70,6 @@ function Home() {
         <div className='contact-links'>
          
 
-           
-         
-       
        
            
         </div>

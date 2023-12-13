@@ -374,17 +374,18 @@ column-gap: 60px;
   justify-content: center;
   row-gap: 20px;
   height: 120vh;
+ 
 }
   .gomoku-pro img{
     width: 90vh;
     border-radius: 10px;
-  
+ 
   }
   .pro-tools{
     display: flex;
     column-gap: 20px;
     text-align: center;
-  
+ 
 
   }
   .pro-tools p{
@@ -511,7 +512,7 @@ margin-left: 20px;
   font-size: large;
 }
 
-/* Resume component styling*/
+
 .exp-list{
   display: flex;
   flex-direction: column;
@@ -524,16 +525,13 @@ margin-left: 20px;
 .experinces{
   display: flex;
   flex-direction: column;
-
-
-
 }
 
 .experinces h3{
   color:#af7079fe;
   background-color: #eeece5;
   width: 140px;
-padding: 10px;
+  padding: 10px;
   border-radius: 50px;
   text-align: center;
 
@@ -568,24 +566,19 @@ padding: 10px;
 .con {
   display: flex;
 flex-direction: column;
-
-
  row-gap: 20px;
 }
 
 .exp1 {
-
 height: 400px;
 width: 470px;
-  border-radius: 2%;
-  
-  background-color: #eeece5;
+border-radius: 2%;
+ background-color: #eeece5;
   box-shadow: 2px 2px rgba(152, 183, 197, 0.996) 
  
 }
 
 .exp2 {
-
   height: 300px;
  width: 470px;
   border-radius: 2%;
@@ -928,7 +921,7 @@ margin-top: 30px;
   cursor: pointer;
 }
 /*  Responsive */
- @media (min-width:375px) and (max-width:1000px){
+@media (min-width:375px) and (max-width:1000px){
   body{
     margin: 0;
     padding: 0;
@@ -938,11 +931,324 @@ margin-top: 30px;
     
   }
  
-
+.home-page{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+ 
+}
     
+.home{
+  display: flex;
+  justify-content: center;
+margin: 0;
+width: 100%;
+
+ 
+}
+.links{
+  display: flex;
+  width: 300px;
+
+  column-gap: 12px;
+  font-size: small;
+ 
+  list-style: none;
+  color: rgba(39, 35, 30, 0.961) ;
+  color: #af7079fe;
+  cursor: pointer;
+  margin: 0;
+
 }
 
 
+.section{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+  background:#f5f1da;
+    width: 350px;
+    font-family: 'Krona One', sans-serif;
+padding-bottom: 60px;
+  }
+  
+  .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ padding: 6px;
+    margin-top: 20px;
+  
+    background-color: #f3d16456;
+    width: 330px;
+    border-radius: 3px;
+ 
+
+  
+   
+  }
+  
+ 
+   .second-section section{
+     display: flex;
+     flex-direction: column;
+     justify-content:center;
+   align-items:center;
+   row-gap: 20px;
+   margin: 0;
+   
+
+   }
+   .second-section img {
+   width: 310px;
+   height: auto;
+   border-radius: 10px;
+ 
+   }
+   
+   .second-section p{
+     font-family: 'Inika', serif;
+     font-size: small;
+     width: 250px;
+     
+
+   }
+   
+   
+   .second-section span{
+   
+     font-size: large;
+
+   }
+   
+   .skill-container{
+    width: 350px;
+    background-color:  #e6c8643c ;
+height: 100%;
+
+
+  
+  }
+ 
+    
+  .skill-dev{
+    display: flex;
+
+    align-items: flex-start;
+    text-align: center;
+       
+      }
+      .dev-tools-container {
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+       
+       
+       }
+      
+   
+       .pro{
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+     
+        width: 350px;
+    
+        text-align: center;
+      }
+
+.gomoku-pro{
+  height: 50vh;
+}
+      
+        .gomoku-pro img{
+          width: 330px;
+          border-radius: 10px;
+        
+        }
+        .pro-tools{
+          display: grid;
+          grid-template-columns:repeat(3, 1fr);
+          text-align: center;
+
+        }
+        .el-pro{
+          
+          height: 95vh;
+        }
+        .el-pro img{
+          width: 330px;
+          border-radius: 10px;
+        }
+        .trio-pro{
+          height: 55vh;
+        }
+        .trio-pro img{
+          width: 330px;
+          
+        }
+        .spa-pro{
+         
+          height: 55vh;
+         
+        }
+        .spa-pro img{
+          width: 330px;
+          
+        }
+        
+        .resume-container{
+         
+          width: 350px;
+          display: flex;
+          
+          height: 310vh;
+        }
+        .resume-wrap{
+         display: flex;
+         flex-direction: column;
+         
+
+        
+        }
+       
+        .resume-wrap h1{
+         
+    font-size:30px;
+         }
+       
+
+        .exp-list{
+          display: flex;
+          flex-direction: column;
+        
+        }
+        .exp-list li{
+          list-style:square;
+          width: 250px;
+        }
+        .experinces{
+          display: flex;
+          flex-direction: column;
+        width: 300px;
+        
+        
+        }
+        
+        .con {
+          display: flex;
+        flex-direction: column;
+        justify-content: center;
+          align-items: center;
+         row-gap: 20px;
+        }
+        
+        .exp1 {
+        height: 500px;
+        width: 320px;
+        }
+        
+        .exp2 {
+        
+          height: 400px;
+         width: 320px;
+      
+        }
+        
+        .core{
+          display: flex;
+          flex-direction: column;
+
+        width: 300px;
+        
+        
+        }
+       
+        
+        
+      
+        
+        .download{
+          display: flex;
+          flex-direction: row;
+
+          align-items: center;
+          column-gap: 10px;
+          cursor: pointer;
+        }
+      
+        
+        .form-wrap{
+
+          text-align: center;
+        margin-top: 40px;
+       display: flex;
+       flex-direction: column;
+        width: 350px;
+        }
+        
+        .form-title{
+          padding: 10px;
+         width: 300px;
+      border-radius: 4px;
+    
+        
+        }
+        .form-title h1{
+          font-size: 27px;
+        }
+        .contact-container {
+          max-width: 350px;
+        
+         
+        height: 40vh;
+     
+        
+        }
+       
+        
+       
+        
+        input,
+        textarea {
+
+          width: 150px;
+        
+        }
+        
+        
+        .form-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        }
+        .form-info textarea{
+        outline: none;
+        width: 300px;
+        height: 30px;
+        
+        }
+        
+        .form-info-container{
+          display: flex;
+          column-gap: 20px;
+         
+        }
+        .footer{
+          display: flex;
+          flex-direction: column;
+           justify-content: space-around;
+width: 100%;
+           height: 150px;
+         
+          
+        }
+        
+         
+}
 
 
 

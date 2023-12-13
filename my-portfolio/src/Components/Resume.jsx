@@ -72,7 +72,7 @@ const Resume = () => {
         </div>
        
     <div className='resume-wrap'>
-        <div  >
+        <div >
         <div > 
         <div className='social'>
         <h1>

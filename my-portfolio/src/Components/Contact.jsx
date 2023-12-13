@@ -48,7 +48,7 @@ function Contact() {
     <div className='form-wrap' >
     <div className='form-title'>
     <h1 >Contact me through form</h1>
-      <p >Do you have a question? Go ahead and send me a message! </p>
+      <p >Do you have a question? Go ahead and send me a message!</p>
     </div>
       
       <div className="contact-container"> 
@@ -93,8 +93,6 @@ function Contact() {
           placeholder='Hi Sara, we are contacting you regarding...'
         ></textarea>
         </div>
-
-       
 
         <button className='btn' type="submit" >Send </button>
       </form>

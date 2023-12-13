@@ -10,18 +10,22 @@ function App() {
 
   const toggleNightMode = () => {
     setNightMode(!nightMode)
-  }
+  };
+  const handleEmailClick = () => {
+    window.location.href = 'mailto:saraleepark1994@gmail.com';
+  };
+
 
 
   return (
-    <div className={`App ${nightMode ? 'night-mode' : ''}`}>
+    <div  className={`App ${nightMode ? 'night-mode' : ''}`}>
 
 <Header/>
 
   <div className='navbar'>
     
 
-    <BiLogoGmail className='mail'/>   <a  className='mail-link' href='mailto:saraleepark1994@gmail.com' target='-blank' rel="noopener noreferrer">    </a>
+    <BiLogoGmail className='mail' onClick={handleEmailClick} />   <a  className='mail-link' href='mailto:saraleepark1994@gmail.com' target='-blank' rel="noopener noreferrer">    </a>
 
     {nightMode? (
       <MdWbSunny className='navbar-icons' onClick={toggleNightMode}/>
