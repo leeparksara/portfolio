@@ -772,18 +772,23 @@ align-items: center;
 
 .night-mode {
 
-  background-color: #333a40;
+  background-color: #1d2328;
   color: #fff; 
   .section{
     background-color: rgba(43, 46, 48, 0.868);
     color: #fff;
   }
+  .section{
+    background-color: rgba(49, 101, 135, 0.868);
+    color: #fff;
+  }
   .header{
-    background: #a7bbc9;
+    background: transparent;
     
   }
+ 
   .links a{
-    color: #000;
+    color: #fff;
   }
   .links a:hover{
     color: #3c3b3b;
@@ -804,10 +809,12 @@ align-items: center;
  }
  .skill-container{
 
-  background-color: #1a292f;
+  background-color: rgba(49, 101, 135, 0.868);
+  color: #fff;
  }
  .skill-icons h3{
-  color: #92b0cb;
+   background-color: rgba(49, 101, 135, 0.868);
+  color: #fff;
  }
  .devs{
   color: #92b2ca;
@@ -816,11 +823,11 @@ align-items: center;
   color: #92b0cb;
 }
 .h3{
-  color: #92b0cb;
+  color: #fff;
 }
 .dev-tools-container p{
-  background-color:  #8aa5bc;
-  color:#1a292f;
+  background-color:  #3a7ebb;
+  color:#fff;
   border: 1px solid #333a40;
 
 }
@@ -829,46 +836,52 @@ align-items: center;
   color: #fff;
 }
 .pro{
-  background-color: #1a292f;
+  background-color: rgba(49, 101, 135, 0.868);
+  color: #fff;
 
 }
 .pro:hover{
   box-shadow:  2px 2px #cbd9e6;
 }
 .pro h4{
-  color: #92b2ca;
+  color: #fff;
 }
 .pro-tools p{
-  color: #cbd9e6;
-  border: 4px dotted #cbd9e6;
+  color: #fff;
+  border: none;
+  padding: 3px;
+  border-radius: 3px;
+  background-color:  #3a7ebb;
 }
 .resume-container{
-  background-color: #1a292f;
+  background-color: rgba(49, 101, 135, 0.868);
+  color: #fff;
 }
+
 .resume-container h3{
-  color: #92b2ca;
+  color: #fff;
 }
 .resume-wrap p{
-  color: #c6d2dc;
+  color: #fff;
 }
 .resume-wrap h5{
-  color: #a9b7c1;
+  color: #fff;
 }
 .core-list{
-  background-color:#596264;
+  background-color:  #3a4a59;
 }
 .experinces h3{
-  background-color: #92b2ca;
-color: #383e3f;
+  background-color:  #3a7ebb;
+color: #fff;
 }
 .exp1, .exp2{
-  background-color:#53595b;
+  background-color:  #3a4a59;
 }
 .exp-period h4{
-  color: #92b2ca;
+  color: #fff;
 }
 .resume-wrap h1{
-  color: #92b2ca;
+  color: #cce0ef;
 }
 .resume-container span{
   background: #92b2ca;
@@ -881,13 +894,14 @@ color: #7db0dd;
 }
 .contact-container{
   border-color: #ffffff;
-
+background-color: #e0e0e0;
 }
 .form-info{
-  color:#ced5da;
+  color:#232e35;
 }
 .form-info input, textarea{
-  border-color: #dfe9f1;
+  border-color: #7db0dd;;
+  
 }
 
  .btn{
@@ -900,8 +914,8 @@ color: #7db0dd;
   border-color:#282c34 ;
 }
 .form-title{
-  background-color: #325073;
-  color: #d4eafa;
+  background-color: transparent;
+  color: #fff;
 }
 .footer{
   background-color: #325073;
