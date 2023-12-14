@@ -766,10 +766,8 @@ justify-content: space-evenly;
 column-gap: 20px;
 align-items: center;
 }
-/* App.css */
 
-/* Your existing styles */
-
+/* night-mode styling*/
 .night-mode {
 
   background-color: #1d2328;
@@ -1261,7 +1259,170 @@ width: 100%;
          
           
         }
-       
+        .night-mode {
+
+          background-color: #1d2328;
+          color: #fff; 
+          .section{
+            background-color: rgba(43, 46, 48, 0.868);
+            color: #fff;
+          }
+          .section{
+            background-color: rgba(49, 101, 135, 0.868);
+            color: #fff;
+          }
+          .header{
+            background: transparent;
+            
+          }
+         
+          .links a{
+            color: #fff;
+          }
+          .links a:hover{
+            color: #3c3b3b;
+          }
+         .first-span{
+          color: #c1d3e1;
+         }
+         .second-span{
+          color: #c1d3e1;
+         }
+         .first-span:hover{
+          background-color:#84919b;
+          color: #282c34;
+         }
+          .second-span:hover{
+            background-color:#897997;
+            color: #282c34;
+         }
+         .skill-container{
+        
+          background-color: rgba(49, 101, 135, 0.868);
+          color: #fff;
+         }
+         .skill-icons h3{
+           background-color: rgba(49, 101, 135, 0.868);
+          color: #fff;
+         }
+         .devs{
+          color: #92b2ca;
+         }
+        .dev-ti{
+          color: #92b0cb;
+        }
+        .h3{
+          color: #fff;
+        }
+        .dev-tools-container p{
+          background-color:  #3a7ebb;
+          color:#fff;
+          border: 1px solid #333a40;
+        
+        }
+        .dev-tools-container p:hover{
+          background-color:  #5e6c79;
+          color: #fff;
+        }
+        .pro{
+          background-color: rgba(49, 101, 135, 0.868);
+          color: #fff;
+        
+        }
+        .pro:hover{
+          box-shadow:  2px 2px #cbd9e6;
+        }
+        .pro h4{
+          color: #fff;
+        }
+        .pro-tools p{
+          color: #fff;
+          border: none;
+          padding: 3px;
+          border-radius: 3px;
+          background-color:  #3a7ebb;
+        }
+        .resume-container{
+          background-color: rgba(49, 101, 135, 0.868);
+          color: #fff;
+        }
+        
+        .resume-container h3{
+          color: #fff;
+        }
+        .resume-wrap p{
+          color: #fff;
+        }
+        .resume-wrap h5{
+          color: #fff;
+        }
+        .core-list{
+          background-color:  #3a4a59;
+        }
+        .experinces h3{
+          background-color:  #3a7ebb;
+        color: #fff;
+        }
+        .exp1, .exp2{
+          background-color:  #3a4a59;
+        }
+        .exp-period h4{
+          color: #fff;
+        }
+        .resume-wrap h1{
+          color: #cce0ef;
+        }
+        .resume-container span{
+          background: #92b2ca;
+        }
+        .download-icon{
+        height: 90px;
+        width: 35px;
+        color: #7db0dd;
+        
+        }
+        .contact-container{
+          border-color: #ffffff;
+        background-color: #e0e0e0;
+        }
+        .form-info{
+          color:#232e35;
+        }
+        .form-info input, textarea{
+          border-color: #7db0dd;;
+          
+        }
+        
+         .btn{
+          background-color:#21548f;
+          color: #d4eafa;
+          border-color:#d4eafa ;
+        }
+        .btn:hover{
+          color: #282c34;
+          border-color:#282c34 ;
+        }
+        .form-title{
+          background-color: transparent;
+          color: #fff;
+        }
+        .footer{
+          background-color: #325073;
+          color: #d4eafa;
+        }
+        } 
+        
+        
+        .skill-container-icons{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 30px;
+        }
+        .navbar-icons{
+          margin: 30px;
+          cursor: pointer;
+        }
          
 }
 
