@@ -3,8 +3,8 @@ import StartPage from '../Components/StartPage'
 
 const Home = () => {
   return (
-    <div className='home-page'>
-        <StartPage/>
+    <div >
+        <StartPage className='home-page' />
     </div>
   )
 }
