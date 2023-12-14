@@ -767,174 +767,6 @@ column-gap: 20px;
 align-items: center;
 }
 
-/* night-mode styling*/
-.night-mode {
-
-  background-color: #1d2328;
-  color: #fff; 
-  .section{
-    background-color: rgba(43, 46, 48, 0.868);
-    color: #fff;
-  }
- 
-  .section{
-    background-color: rgba(49, 101, 135, 0.868);
-    color: #fff;
-  }
-  .header{
-    background: transparent;
-    
-  }
- 
-  .links a{
-    color: #fff;
-  }
-  .links a:hover{
-    color: #3c3b3b;
-  }
- .first-span{
-  color: #c1d3e1;
- }
- .second-span{
-  color: #c1d3e1;
- }
- .first-span:hover{
-  background-color:#84919b;
-  color: #282c34;
- }
-  .second-span:hover{
-    background-color:#897997;
-    color: #282c34;
- }
- .skill-container{
-
-  background-color: rgba(49, 101, 135, 0.868);
-  color: #fff;
- }
- .skill-icons h3{
-   background-color: rgba(49, 101, 135, 0.868);
-  color: #fff;
- }
- .devs{
-  color: #92b2ca;
- }
-.dev-ti{
-  color: #92b0cb;
-}
-.h3{
-  color: #fff;
-}
-.dev-tools-container p{
-  background-color:  #3a7ebb;
-  color:#fff;
-  border: 1px solid #333a40;
-
-}
-.dev-tools-container p:hover{
-  background-color:  #5e6c79;
-  color: #fff;
-}
-.pro{
-  background-color: rgba(49, 101, 135, 0.868);
-  color: #fff;
-
-}
-.pro:hover{
-  box-shadow:  2px 2px #cbd9e6;
-}
-.pro h4{
-  color: #fff;
-}
-.pro-tools p{
-  color: #fff;
-  border: none;
-  padding: 3px;
-  border-radius: 3px;
-  background-color:  #3a7ebb;
-}
-.resume-container{
-  background-color: rgba(49, 101, 135, 0.868);
-  color: #fff;
-}
-
-.resume-container h3{
-  color: #fff;
-}
-.resume-wrap p{
-  color: #fff;
-}
-.resume-wrap h5{
-  color: #fff;
-}
-.core-list{
-  background-color:  #3a4a59;
-}
-.experinces h3{
-  background-color:  #3a7ebb;
-color: #fff;
-}
-.exp1, .exp2{
-  background-color:  #3a4a59;
-}
-.exp-period h4{
-  color: #fff;
-}
-.resume-wrap h1{
-  color: #cce0ef;
-}
-.resume-container span{
-  background: #92b2ca;
-}
-.download-icon{
-height: 90px;
-width: 35px;
-color: #7db0dd;
-
-}
-.contact-container{
-  border-color: #ffffff;
-background-color: #e0e0e0;
-}
-.form-info{
-  color:#232e35;
-}
-.form-info input, textarea{
-  border-color: #7db0dd;;
-  
-}
-
- .btn{
-  background-color:#21548f;
-  color: #d4eafa;
-  border-color:#d4eafa ;
-}
-.btn:hover{
-  color: #282c34;
-  border-color:#282c34 ;
-}
-.form-title{
-  background-color: transparent;
-  color: #fff;
-}
-.footer{
-  background-color: #325073;
-  color: #d4eafa;
-}
-} 
-
-
-.skill-container-icons{
-display: flex;
-justify-content: space-around;
-align-items: center;
-margin-top: 30px;
-}
-.navbar-icons{
-  margin: 30px;
-  cursor: pointer;
-}
-
-
 /*  Responsive */
 @media (min-width:375px) and (max-width:1000px){
   body{
@@ -970,8 +802,7 @@ justify-content: center;
   font-size: small;
  
   list-style: none;
-  color: rgba(39, 35, 30, 0.961) ;
-  color: #af7079fe;
+
   cursor: pointer;
   margin: 0;
   overflow-x: hidden;
@@ -983,7 +814,7 @@ justify-content: center;
   display: flex;
   flex-direction: column;
 align-items: center;
-  background:#f5f1da;
+ 
     width: 100%;
     font-family: 'Krona One', sans-serif;
 padding-bottom: 60px;
@@ -1043,7 +874,7 @@ height: 130vh;
    
    .skill-container{
     width: 350px;
-    background-color:  #e6c8643c ;
+   
 height: 100%;
 width: 100%;
 
@@ -1266,174 +1097,177 @@ width: 100%;
            height: 150px;
          
           
-        }
-        .night-mode {
 
-          background-color: #1d2328;
-          
-          color: #fff; 
-          .section{
-            background-color: rgba(36, 59, 75, 0.868);
-            color: #fff;
-          }
-          .night-mode .section{
-            background-color: rgba(49, 101, 135, 0.868);
-            color: #fff;
-          }
-          .night-mode .header{
-            background: transparent;
-            
-          }
-         
-          .night-mode .links a{
-            color: #fff;
-          }
-          .night-mode .links a:hover{
-            color: #3c3b3b;
-          }
-          .night-mode .first-span{
-          color: #c1d3e1;
-         }
-         .night-mode .second-span{
-          color: #c1d3e1;
-         }
-         .night-mode .first-span:hover{
-          background-color:#84919b;
-          color: #282c34;
-         }
-         .night-mode .second-span:hover{
-            background-color:#897997;
-            color: #282c34;
-         }
-         .night-mode .skill-container{
-        
-          background-color: rgba(49, 101, 135, 0.868);
-          color: #fff;
-         }
-         .night-mode .skill-icons h3{
-           background-color: rgba(49, 101, 135, 0.868);
-          color: #fff;
-         }
-         .night-mode .devs{
-          color: #92b2ca;
-         }
-         .night-mode .dev-ti{
-          color: #92b0cb;
-        }
-        .night-mode .h3{
-          color: #fff;
-        }
-        .night-mode .dev-tools-container p{
-          background-color:  #3a7ebb;
-          color:#fff;
-          border: 1px solid #333a40;
         
         }
-        .night-mode .dev-tools-container p:hover{
-          background-color:  #5e6c79;
-          color: #fff;
-        }
-        .night-mode .pro{
-          background-color: rgba(49, 101, 135, 0.868);
-          color: #fff;
         
-        }
-        .night-mode .pro:hover{
-          box-shadow:  2px 2px #cbd9e6;
-        }
-        .night-mode .pro h4{
-          color: #fff;
-        }
-        .night-mode .pro-tools p{
-          color: #fff;
-          border: none;
-          padding: 3px;
-          border-radius: 3px;
-          background-color:  #3a7ebb;
-        }
-        .night-mode .resume-container{
-          background-color: rgba(49, 101, 135, 0.868);
-          color: #fff;
-        }
-        
-        .night-mode .resume-container h3{
-          color: #fff;
-        }
-        .night-mode .resume-wrap p{
-          color: #fff;
-        }
-        .night-mode .resume-wrap h5{
-          color: #fff;
-        }
-        .night-mode .core-list{
-          background-color:  #3a4a59;
-        }
-        .night-mode .experinces h3{
-          background-color:  #3a7ebb;
-        color: #fff;
-        }
-        .night-mode .exp1, .exp2{
-          background-color:  #3a4a59;
-        }
-        .night-mode .exp-period h4{
-          color: #fff;
-        }
-        .night-mode .resume-wrap h1{
-          color: #cce0ef;
-        }
-        .night-mode .resume-container span{
-          background: #92b2ca;
-        }
-        .night-mode .download-icon{
-        height: 90px;
-        width: 35px;
-        color: #7db0dd;
-        
-        }
-        .night-mode .contact-container{
-          border-color: #ffffff;
-        background-color: #e0e0e0;
-        }
-        .night-mode .form-info{
-          color:#232e35;
-        }
-        .night-mode .form-info input, textarea{
-          border-color: #7db0dd;;
-          
-        }
-        
-        .night-mode .btn{
-          background-color:#21548f;
-          color: #d4eafa;
-          border-color:#d4eafa ;
-        }
-        .night-mode .btn:hover{
-          color: #282c34;
-          border-color:#282c34 ;
-        }
-        .night-mode .form-title{
-          background-color: transparent;
-          color: #fff;
-        }
-        .night-mode  .footer{
-          background-color: #325073;
-          color: #d4eafa;
-        }
-        } 
-        
-        
-        .night-mode .skill-container-icons{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin-top: 30px;
-        }
-        .navbar-icons{
-          margin: 30px;
-          cursor: pointer;
-        }
-         
+      
 }
 
 
+
+
+/* night-mode styling*/
+.night-mode {
+
+  background-color: #1d2328;
+  color: #fff; 
+  .section{
+    background-color: rgba(48, 62, 75, 0.868);
+    color: #fff;
+  }
+ 
+  
+  .header{
+    background: transparent;
+    
+  }
+ 
+  .links a{
+    color: #fff;
+  }
+  .links a:hover{
+    color: #3c3b3b;
+  }
+ .first-span{
+  color: #c1d3e1;
+ }
+ .second-span{
+  color: #c1d3e1;
+ }
+ .first-span:hover{
+  background-color:#84919b;
+  color: #282c34;
+ }
+  .second-span:hover{
+    background-color:#897997;
+    color: #282c34;
+ }
+ .skill-container{
+
+  background-color: rgba(49, 101, 135, 0.868);
+  color: #fff;
+ }
+ .skill-icons h3{
+   background-color: rgba(49, 101, 135, 0.868);
+  color: #fff;
+ }
+ .devs{
+  color: #92b2ca;
+ }
+.dev-ti{
+  color: #92b0cb;
+}
+.h3{
+  color: #fff;
+}
+.dev-tools-container p{
+  background-color:  #3a7ebb;
+  color:#fff;
+  border: 1px solid #333a40;
+
+}
+.dev-tools-container p:hover{
+  background-color:  #5e6c79;
+  color: #fff;
+}
+.pro{
+  background-color: rgba(49, 101, 135, 0.868);
+  color: #fff;
+
+}
+.pro:hover{
+  box-shadow:  2px 2px #cbd9e6;
+}
+.pro h4{
+  color: #fff;
+}
+.pro-tools p{
+  color: #fff;
+  border: none;
+  padding: 3px;
+  border-radius: 3px;
+  background-color:  #3a7ebb;
+}
+.resume-container{
+  background-color: rgba(49, 101, 135, 0.868);
+  color: #fff;
+}
+
+.resume-container h3{
+  color: #fff;
+}
+.resume-wrap p{
+  color: #fff;
+}
+.resume-wrap h5{
+  color: #fff;
+}
+.core-list{
+  background-color:  #3a4a59;
+}
+.experinces h3{
+  background-color:  #3a7ebb;
+color: #fff;
+}
+.exp1, .exp2{
+  background-color:  #3a4a59;
+}
+.exp-period h4{
+  color: #fff;
+}
+.resume-wrap h1{
+  color: #cce0ef;
+}
+.resume-container span{
+  background: #92b2ca;
+}
+.download-icon{
+height: 90px;
+width: 35px;
+color: #7db0dd;
+
+}
+.contact-container{
+  border-color: #ffffff;
+background-color: #e0e0e0;
+}
+.form-info{
+  color:#232e35;
+}
+.form-info input, textarea{
+  border-color: #7db0dd;;
+  
+}
+
+ .btn{
+  background-color:#21548f;
+  color: #d4eafa;
+  border-color:#d4eafa ;
+}
+.btn:hover{
+  color: #282c34;
+  border-color:#282c34 ;
+}
+.form-title{
+  background-color: transparent;
+  color: #fff;
+}
+.footer{
+  background-color: #325073;
+  color: #d4eafa;
+}
+} 
+
+
+.skill-container-icons{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 30px;
+}
+.navbar-icons{
+  margin: 30px;
+  cursor: pointer;
+}
 
